@@ -1,0 +1,147 @@
+body {
+    background-color: #f9fafc;
+}
+
+header {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+
+}
+a {
+    padding: 5px;
+}
+
+.topnav {
+    font-family: "Open Sans", sans-serif;
+    color: #69696a;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.topnav a {
+    color: #69696a;
+    text-decoration: none;
+
+}
+
+#hireus {
+    background-color: black;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#hireus a {
+    color: white;
+    padding: 5px;
+
+}
+
+h1 {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main-content {
+    color: #69696a;
+    font-family: "Open Sans", sans-serif;
+    border-left: 2px solid #69696a;
+    padding-left: 10px;
+}
+
+#scrolldown a {
+    color: white;
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 100px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        padding-left: 10px;
+        width: 40%;
+        display: inline-block;
+
+    }
+
+    .topnav {
+        padding: 10px;
+        justify-content: space-between;
+        width: 40%;
+        float: right;
+        flex-direction: row;
+
+
+    }
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin: 10px;
+    }
+    p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .bubbles {
+        width: 50%;
+        position: relative;
+    }
+
+    #pink {
+        height: 400px;
+        width: 400px;
+        background-color: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        margin-left: 50px;
+        position: absolute;
+    }
+
+    #purple {
+        height: 200px;
+        width: 200px;
+        background-color: rgba(247, 136, 1670, 0.6);
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 400px;
+        margin-top: 50px;
+    }
+
+    #orange {
+        height: 300px;
+        width: 300px;
+        background-color: rgba(247, 193 ,162, 0.7);
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: 175px;
+    }
+    #scrolldown {
+        clear: both;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        width: 100%;
+        bottom: 30px;
+        
+    }
+
+    #scrolldown a {
+        padding: 5px;
+        text-align: center;
+    }
+
+
+
+
+}
+
